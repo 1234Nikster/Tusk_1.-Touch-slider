@@ -1,0 +1,23 @@
+.slider {
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    &_ribbon {
+        display: flex;
+        transform: translate(-0%);
+    }
+
+    &_slide {
+        width: 100%;
+        flex-shrink: 0;
+        display: table;
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+        box-sizing: border-box;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

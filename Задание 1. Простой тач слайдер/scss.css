@@ -1,0 +1,29 @@
+.slider {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.slider_ribbon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(0%);
+          transform: translate(0%);
+}
+
+.slider_slide {
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: table;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider_slide img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=scss.css.map */
